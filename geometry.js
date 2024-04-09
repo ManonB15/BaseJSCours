@@ -17,10 +17,12 @@ console.log ("L'aire du rectangle est :", rectangle.area)
 rectangle.diagonale = (rectangle.longueur * rectangle.longueur) + (rectangle.largeur * rectangle.largeur)
 console.log("La diagonale au carré vaut", rectangle.diagonale, rectangle.unite + "²")
 
-console.log("La diagonale vaut", (Math.sqrt(rectangle.diagonale)).toFixed(2), rectangle.unite)
+rectangle.diagonale = (Math.sqrt(rectangle.diagonale)).toFixed(2)
 
-console.log("\nX :", rectangle.x, rectangle.unite)
-console.log("Y :", rectangle.y, rectangle.unite)
-console.log("Périmètre :", rectangle.perimetre, rectangle.unite)
-console.log("Aire :", rectangle.area, rectangle.unite, "²")
-console.log("Diagonale :", (Math.sqrt(rectangle.diagonale)).toFixed(2), rectangle.unite)
+console.log("La diagonale vaut",rectangle.diagonale, rectangle.unite)
+ 
+console.log("\nX :", rectangle.x + rectangle.unite)
+console.log("Y :", rectangle.y + rectangle.unite)
+console.log("Périmètre :", rectangle.perimetre + rectangle.unite)
+console.log("Aire :", rectangle.area + rectangle.unite, "²")
+console.log("Diagonale :", rectangle.diagonale + rectangle.unite+"\n")
