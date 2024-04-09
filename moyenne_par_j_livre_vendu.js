@@ -1,4 +1,4 @@
-let LivreVendusSemaine = 650                                      // Déclaration de la variable du nb de livre vendus par semaine
+let LivreVendusSemaine = 600                                      // Déclaration de la variable du nb de livre vendus par semaine
 LivreVendusSemaine += 50                                          // Ajout de 50 livres à la variable
-let LivreVenduJour = LivreVendusSemaine / 7                       // Déclaration de la variable pour connaître le nb de livre vendu par jour
-console.log("Le nombre de livre vendu est de" , LivreVenduJour , "livres")      // Affichage de la variable de livre vendu par jour
+let LivreVenduJour = LivreVendusSemaine / 7                       // Déclaration de la variable pour connaître le nb de livre vendu par jour                                        // Fonction pour arrondir la variable du nb de livre par jour
+console.log("Le nombre de livre vendu est de" , Math.round(LivreVenduJour) , "livres")      // Affichage de la variable de livre vendu par jour avec la fonction pour arrondir
