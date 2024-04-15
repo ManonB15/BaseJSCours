@@ -1,11 +1,11 @@
-let personnage = {
+let personnage = {                                          //Déclaration de l'objet personnage
     firstName : "Manon",
     lastName : "Bourrey",
     username : "Ryumaru",
     email : "bourrey.m@gmail.com"
 }
 
-let voisin = personnage
+let voisin = personnage                                     //Déclaration de l'objet voisin
 console.log(personnage)
 console.log(voisin)
 
